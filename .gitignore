@@ -1,0 +1,33 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Secrets and local editor state
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+Thumbs.db
+~$*
+
+# Downloaded or regenerable content; source registry stays versioned.
+/data/raw/*
+!/data/raw/.gitkeep
+/data/interim/*
+!/data/interim/.gitkeep
+/data/indexes/*
+!/data/indexes/.gitkeep
+/models/
+
+# Document build intermediates; retain final reports and evidence.
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
