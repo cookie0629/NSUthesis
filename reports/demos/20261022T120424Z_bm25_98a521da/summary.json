@@ -1,0 +1,5 @@
+{
+  "query_count": 10,
+  "queries_with_lexical_matches": 10,
+  "note": "Lexical matches are NOT relevance judgments or evaluation metrics."
+}

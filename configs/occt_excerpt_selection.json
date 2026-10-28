@@ -1,0 +1,12 @@
+{
+  "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+  "method": "assistant-curated complete paragraphs or API comment blocks; strip //! only; no model tokenizer",
+  "selections": {
+    "occt_geom_bspline_surface": [[46,59,"Geom_BSplineSurface: definition"],[60,100,"Geom_BSplineSurface: poles and weights"],[101,146,"Geom_BSplineSurface: knots, multiplicities and periodicity"]],
+    "occt_geom_surface": [[30,51,"Geom_Surface: parameterized surface"],[137,139,"Geom_Surface::Bounds"],[145,150,"Geom_Surface::IsUClosed"],[160,167,"Geom_Surface::IsUPeriodic"],[194,205,"Geom_Surface::Continuity"],[224,227,"Geom_Surface::D1"],[234,236,"Geom_Surface::D2"]],
+    "occt_points_to_bspline_surface": [[31,68,"GeomAPI_PointsToBSplineSurface: approximation and interpolation"],[84,90,"GeomAPI_PointsToBSplineSurface: approximation constraints"],[113,116,"GeomAPI_PointsToBSplineSurface: variational smoothing"],[167,171,"GeomAPI_PointsToBSplineSurface::Interpolate"]],
+    "occt_geomabs_shape": [[20,46,"GeomAbs_Shape: continuity categories"]],
+    "occt_brep_tool": [[42,43,"BRep_Tool: purpose"],[56,57,"BRep_Tool::Surface"],[86,86,"BRep_Tool::Tolerance (face)"],[99,101,"BRep_Tool::Curve"],[119,125,"BRep_Tool::CurveOnSurface"],[236,238,"BRep_Tool::IsClosed (edge on face)"]],
+    "occt_brepcheck_analyzer": [[29,35,"BRepCheck_Analyzer: purpose"],[41,57,"BRepCheck_Analyzer: GeomControls"],[87,91,"BRepCheck_Analyzer::SetExactMethod"],[108,146,"BRepCheck_Analyzer::IsValid"]]
+  }
+}

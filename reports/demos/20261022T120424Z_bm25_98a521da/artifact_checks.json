@@ -1,0 +1,20 @@
+{
+  "markdown_files": 35,
+  "local_links_checked": 63,
+  "python_files_parsed": 15,
+  "bibliography_keys": [
+    "lewis2020rag",
+    "occt790",
+    "reimers-gurevych-2019-sentence",
+    "robertson2009bm25"
+  ],
+  "question_categories": {
+    "definition_api": 2,
+    "representation": 2,
+    "fitting": 2,
+    "boundary_continuity": 2,
+    "tolerance_validity": 2
+  },
+  "run_snapshot_hashes_checked": 18,
+  "errors": []
+}

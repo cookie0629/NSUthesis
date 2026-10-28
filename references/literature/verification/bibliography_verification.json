@@ -1,0 +1,40 @@
+[
+  {
+    "name": "bm25_crossref",
+    "url": "https://api.crossref.org/works/10.1561/1500000019",
+    "status": "downloaded",
+    "retrieved_at": "2026-10-22T11:45:57.439808+00:00",
+    "local_path": "references/literature/verification/bm25_crossref.json",
+    "sha256": "fa78c7b3e703443ffa37a1a855d7678e6d5d137dccb38d232b65e6d0a8b1ec27"
+  },
+  {
+    "name": "sbert_acl",
+    "url": "https://aclanthology.org/D19-1410/",
+    "status": "downloaded",
+    "retrieved_at": "2026-10-22T11:45:58.674527+00:00",
+    "local_path": "references/literature/verification/sbert_acl.html",
+    "sha256": "885f57a8f52b663c9e5bae0f2bfa72ad55e824185557fe50eb42ed7ebaac81f2"
+  },
+  {
+    "name": "sbert_bib",
+    "url": "https://aclanthology.org/D19-1410.bib",
+    "status": "downloaded",
+    "retrieved_at": "2026-10-22T11:45:59.249988+00:00",
+    "local_path": "references/literature/verification/sbert_bib.bib",
+    "sha256": "b4b321245f05884e33608c78b5db9498f3b0ece544640407aa919ca870465b66"
+  },
+  {
+    "name": "rag_arxiv",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "status": "failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>"
+  },
+  {
+    "name": "rag_neurips",
+    "url": "https://papers.nips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+    "status": "downloaded",
+    "retrieved_at": "2026-10-22T11:50:36.967761+00:00",
+    "local_path": "references/literature/verification/rag_neurips.html",
+    "sha256": "5a425ab1b904e69e8ec394bc5f3cf61cd84db96b72c6cfd2a6c1c139443a73e8"
+  }
+]

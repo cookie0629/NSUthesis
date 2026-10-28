@@ -1,1 +1,3 @@
-"""NURBS knowledge retrieval project scaffold; no retrieval is implemented yet."""
+"""Traceable NURBS knowledge retrieval: standard-library BM25 prototype."""
+
+__version__ = "0.1.0"

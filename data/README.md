@@ -1,19 +1,18 @@
 # 研究数据
 
-当前所有数据容器为空，没有已收集语料、审核过的本体或开发题。以下路径已建立：
+更新：2026-10-22。当前为首批开发语料，尚未冻结，不是完成的正式实验数据集。
 
-| 路径 | 状态与后续用途 |
+| 路径 | 内容 |
 | --- | --- |
-| `sources/registry.jsonl` | 空文件；每行一个来源，字段遵守语料规范 |
-| `raw/` | 空目录；保存获准下载的原始材料 |
-| `interim/` | 空目录；保存抽取、清洗中间产物 |
-| `processed/chunks.jsonl` | 空文件；每行一个有定位与来源的证据片段 |
-| `indexes/` | 空目录；保存可重建的索引 |
-| `ontology/seed.json` | 空概念与关系列表，状态 `empty_scaffold` |
-| `evaluation/dev_questions.jsonl` | 空文件；以后仅放开发题，不是独立测试集 |
+| `sources/registry.jsonl` | 六个 OCCT 7.9.0 官方头文件文档来源，含许可、版本、提交、原文与哈希 |
+| `raw/occt-7.9.0/` | 六份完整原文件及许可/例外文本；默认不纳入 Git |
+| `processed/chunks.jsonl` | 25 个完整段落或 API 注释片段，带固定提交的原文行号 |
+| `evaluation/dev_questions.jsonl` | 十道英文合成开发题，五类各两题，待人工复核 |
+| `ontology/seed.json` | 仍为 `empty_scaffold`；未建立审核过的概念或关系 |
+| `interim/`、`indexes/` | 尚无持久化产物；BM25 目前在内存中构建 |
 
-来源和片段字段见 [语料规范](../docs/04_corpus_protocol_zh.md)。空文件表示零条记录，不放会被程序误当作真实记录的占位对象。
+来源依据及限制见[语料核查](../docs/07_first_corpus_review_zh.md)，数据重建与命令见[运行说明](../docs/06_running_zh.md)。每个片段可对应固定文件中的行范围；文本只移除注释标记，保留原句和限定条件。当前只支持源码行号定位，未实现 PDF 或网页的通用抽取。
 
-开发题拟至少记录 `query_id`、`family_id`、`language`、`category`、`question`、`evidence_need`、`origin`、`source_note`、`review_status`；该结构待首轮校验程序实现时落实。`origin` 区分真实任务与合成场景，人工判断与助手辅助方式必须披露。
+来源 `approved` 表示助手依据文件明确许可完成了本地使用检查，详细依据保存在记录中；没有独立人工审核。正式分享前仍应按拟分享范围核对许可义务。所有开发问题 `origin=synthetic`、`review_status=pending_human_review`，不伪装成真实企业任务或专家标签。
 
-正式独立测试题由评估负责人管理，冻结前不放入开发流程。数据来源不得包含未经允许使用的实习内部资料。来源许可未确认、关系证据不足或标注未经人工核验时，均不得冒充正式研究数据。
+独立测试题仍由评估负责人另行管理，本轮没有创建或读取。原语料规范继续有效；英文开发题不是对俄语正式评估方案的替换。

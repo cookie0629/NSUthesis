@@ -1,0 +1,94 @@
+{
+  "tag": "V7_9_0",
+  "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+  "files": [
+    {
+      "source_id": "occt_geom_bspline_surface",
+      "upstream_path": "src/Geom/Geom_BSplineSurface.hxx",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/858dd02fed80c8ca68cf1d70a6e03ecf97f849ca/src/Geom/Geom_BSplineSurface.hxx",
+      "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+      "product_version": "OCCT 7.9.0 (V7_9_0)",
+      "retrieved_at": "2026-10-22T11:45:51.680891+00:00",
+      "local_path": "data/raw/occt-7.9.0/Geom_BSplineSurface.hxx",
+      "content_sha256": "5ca634705f814bf0f27dc57537a15257119fd2154c7dcd6fa4151e93463a02a4",
+      "status": "downloaded"
+    },
+    {
+      "source_id": "occt_geom_surface",
+      "upstream_path": "src/Geom/Geom_Surface.hxx",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/858dd02fed80c8ca68cf1d70a6e03ecf97f849ca/src/Geom/Geom_Surface.hxx",
+      "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+      "product_version": "OCCT 7.9.0 (V7_9_0)",
+      "retrieved_at": "2026-10-22T11:45:52.334118+00:00",
+      "local_path": "data/raw/occt-7.9.0/Geom_Surface.hxx",
+      "content_sha256": "d5c131f15ef3984bdceec8a9d68656918439991e990987f427a7fb786b7e991a",
+      "status": "downloaded"
+    },
+    {
+      "source_id": "occt_points_to_bspline_surface",
+      "upstream_path": "src/GeomAPI/GeomAPI_PointsToBSplineSurface.hxx",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/858dd02fed80c8ca68cf1d70a6e03ecf97f849ca/src/GeomAPI/GeomAPI_PointsToBSplineSurface.hxx",
+      "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+      "product_version": "OCCT 7.9.0 (V7_9_0)",
+      "retrieved_at": "2026-10-22T11:45:53.125442+00:00",
+      "local_path": "data/raw/occt-7.9.0/GeomAPI_PointsToBSplineSurface.hxx",
+      "content_sha256": "6c1ae8a6d7f2c20ef72af460fd111268cff6b2ead0492768c7cc993e1e45676f",
+      "status": "downloaded"
+    },
+    {
+      "source_id": "occt_geomabs_shape",
+      "upstream_path": "src/GeomAbs/GeomAbs_Shape.hxx",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/858dd02fed80c8ca68cf1d70a6e03ecf97f849ca/src/GeomAbs/GeomAbs_Shape.hxx",
+      "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+      "product_version": "OCCT 7.9.0 (V7_9_0)",
+      "retrieved_at": "2026-10-22T11:45:53.695455+00:00",
+      "local_path": "data/raw/occt-7.9.0/GeomAbs_Shape.hxx",
+      "content_sha256": "f361f8e32d2bde7dc6e060ff7bd276f38a17cf95fd8799f449c5d11ce5cb7660",
+      "status": "downloaded"
+    },
+    {
+      "source_id": "occt_brep_tool",
+      "upstream_path": "src/BRep/BRep_Tool.hxx",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/858dd02fed80c8ca68cf1d70a6e03ecf97f849ca/src/BRep/BRep_Tool.hxx",
+      "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+      "product_version": "OCCT 7.9.0 (V7_9_0)",
+      "retrieved_at": "2026-10-22T11:45:54.190775+00:00",
+      "local_path": "data/raw/occt-7.9.0/BRep_Tool.hxx",
+      "content_sha256": "316e69732780f3ff4a0f860fb8fa52ea6bd2ddc139eaa311baca68878b6f062a",
+      "status": "downloaded"
+    },
+    {
+      "source_id": "occt_brepcheck_analyzer",
+      "upstream_path": "src/BRepCheck/BRepCheck_Analyzer.hxx",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/858dd02fed80c8ca68cf1d70a6e03ecf97f849ca/src/BRepCheck/BRepCheck_Analyzer.hxx",
+      "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+      "product_version": "OCCT 7.9.0 (V7_9_0)",
+      "retrieved_at": "2026-10-22T11:45:54.716902+00:00",
+      "local_path": "data/raw/occt-7.9.0/BRepCheck_Analyzer.hxx",
+      "content_sha256": "e6fd73306676f8df5be8c5070bd25bc55517af6d5f887dc9ee4597334002ff31",
+      "status": "downloaded"
+    },
+    {
+      "source_id": "license",
+      "upstream_path": "LICENSE_LGPL_21.txt",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/858dd02fed80c8ca68cf1d70a6e03ecf97f849ca/LICENSE_LGPL_21.txt",
+      "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+      "product_version": "OCCT 7.9.0 (V7_9_0)",
+      "retrieved_at": "2026-10-22T11:45:55.298199+00:00",
+      "local_path": "data/raw/occt-7.9.0/LICENSE_LGPL_21.txt",
+      "content_sha256": "e237fa56668030e928551ddd60f05df5fe957f75eab874bbd017e085ed722e7c",
+      "status": "downloaded"
+    },
+    {
+      "source_id": "exception",
+      "upstream_path": "OCCT_LGPL_EXCEPTION.txt",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/858dd02fed80c8ca68cf1d70a6e03ecf97f849ca/OCCT_LGPL_EXCEPTION.txt",
+      "commit": "858dd02fed80c8ca68cf1d70a6e03ecf97f849ca",
+      "product_version": "OCCT 7.9.0 (V7_9_0)",
+      "retrieved_at": "2026-10-22T11:45:55.933059+00:00",
+      "local_path": "data/raw/occt-7.9.0/OCCT_LGPL_EXCEPTION.txt",
+      "content_sha256": "04580a884ea6cea294402649ff7b5cbb167d47462d1340a4ed33e550db10a81b",
+      "status": "downloaded"
+    }
+  ]
+}

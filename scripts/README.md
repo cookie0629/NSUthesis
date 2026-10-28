@@ -1,5 +1,9 @@
 # 脚本入口
 
-本目录留给来源登记、数据检查、索引构建、实验运行和图表生成的命令入口；目前没有可运行脚本。
+从项目根目录运行，完整步骤见[运行说明](../docs/06_running_zh.md)。
 
-实现时从项目根目录运行，将复用逻辑放入 `src/nurbs_knowledge/`。每个命令记录输入、输出、配置、失败处理和复现方式；运行证据放入 `experiments/` 或 `reports/demos/`。
+- `setup_environment.ps1`：使用本地官方 Python 3.13 运行时创建 `.venv`，注册本项目源码路径。
+- `fetch_research_sources.py`：联网获取固定标签解析后的 OCCT 资料、许可和公开书目核验材料，记录下载成功或失败。
+- `build_occt_corpus.py`：离线核验原文件与许可哈希，按固定提交和行范围重建来源表及片段。
+
+日常数据校验、单次检索、批量演示使用 `python -m nurbs_knowledge validate/search/demo`。下载及构建脚本会更新工作区材料，已有演示目录不会被修改；需要保留旧数据快照时先归档，不在正式测试冻结后随意重建。

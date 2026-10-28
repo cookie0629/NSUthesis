@@ -1,0 +1,59 @@
+{
+  "query": "Как проверить непрерывность поверхности?",
+  "top_k": 5,
+  "results": [],
+  "status": "no_match",
+  "search_seconds": 0.00012740000238409266,
+  "timing_scope": "query tokenization and scoring; excludes corpus validation and index build",
+  "manifest": {
+    "created_at": "2026-10-22T11:56:29.910588+00:00",
+    "stage": "development_demo",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "F:\\thesis\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "dependencies": "Python standard library only",
+    "config": {
+      "method": "bm25",
+      "k1": 1.5,
+      "b": 0.75,
+      "idf": "log(1 + (N - df + 0.5) / (df + 0.5))",
+      "tokenizer": "unicode_nfkc_casefold_word_v1",
+      "query_terms": "unique",
+      "default_top_k": 5
+    },
+    "source_count": 6,
+    "chunk_count": 25,
+    "file_sha256": {
+      "configs/bm25.json": "e5ffbf2afd75e3d7d1b0eb69db590d36f4452a6dc6aba302ea4565b372fd79d9",
+      "data/sources/registry.jsonl": "35274afb91619b428644d519809fc4e67b09549c6038331f9aa67706fc92534a",
+      "data/processed/chunks.jsonl": "52503d9b49e1d48265725428a8a22dda843171c5da113b102566345dad4e713e",
+      "src/nurbs_knowledge/__init__.py": "29d5c1a6a596c0dcbfd4cf09fce1c519000b73f4cc2676c960b54a66a9bb1a66",
+      "src/nurbs_knowledge/__main__.py": "6bc45fb6e34085820be6f28ad14b18a5deb46abaa6fbd10b4f8b8fe6626c945e",
+      "src/nurbs_knowledge/answer/__init__.py": "52703cb146503a0828cbdb3842a58fbc1b1ca092d342092e2729df47daaa468e",
+      "src/nurbs_knowledge/chunk/__init__.py": "597d8b22d59ca3556d34e3ef587469db1c79b3bc397ab0fc5f0cdbf2219faffb",
+      "src/nurbs_knowledge/common.py": "7781d624f5cb50d0fd4578fa9b96fe586543475909f563423c7afb71ef7f5599",
+      "src/nurbs_knowledge/evaluate/__init__.py": "976156acc908223c03a5a405946482d7c0ab615ae1c6a5f1d159009c9b1ba27f",
+      "src/nurbs_knowledge/index/__init__.py": "60016d5d295073adf8d76aadf898f1527c8132dfcf51430f7b20fc127766d067",
+      "src/nurbs_knowledge/index/bm25.py": "e4f3b02c1ff485c332ef719077ce1546685528fff520604d65b7399c73e82c54",
+      "src/nurbs_knowledge/ingest/__init__.py": "d892e986dcdbbf241af1073c85cb1a76db3bb0c241cd3a9d28dfcf8a08cd9534",
+      "src/nurbs_knowledge/ingest/validation.py": "30450be24fc9a89c632d8b04521f94cceafd1a65cf9a3528f33d918e3139c89d",
+      "src/nurbs_knowledge/retrieve/__init__.py": "5c0f0efb89c6137513f70bf620098d86be7ae6a9ca28888efae99948b76aca35",
+      "data/evaluation/dev_questions.jsonl": "939e4f7c805519fe8f970d35d0e2b21b88b936c4cd9fb7ec70406a6a9e1d1aeb"
+    },
+    "source_content_sha256": {
+      "occt_geom_bspline_surface": "5ca634705f814bf0f27dc57537a15257119fd2154c7dcd6fa4151e93463a02a4",
+      "occt_geom_surface": "d5c131f15ef3984bdceec8a9d68656918439991e990987f427a7fb786b7e991a",
+      "occt_points_to_bspline_surface": "6c1ae8a6d7f2c20ef72af460fd111268cff6b2ead0492768c7cc993e1e45676f",
+      "occt_geomabs_shape": "f361f8e32d2bde7dc6e060ff7bd276f38a17cf95fd8799f449c5d11ce5cb7660",
+      "occt_brep_tool": "316e69732780f3ff4a0f860fb8fa52ea6bd2ddc139eaa311baca68878b6f062a",
+      "occt_brepcheck_analyzer": "e6fd73306676f8df5be8c5070bd25bc55517af6d5f887dc9ee4597334002ff31"
+    },
+    "random_seed": null,
+    "randomness": "none; deterministic ranking",
+    "api_cost_cny": 0,
+    "limitation": "Development queries, no human relevance labels or test metrics",
+    "setup_seconds": 0.06001749999995809,
+    "effective_top_k": 5
+  }
+}

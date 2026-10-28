@@ -1,0 +1,7 @@
+{
+  "url": "https://api.nuget.org/v3-flatcontainer/python/3.13.17/python.3.13.17.nupkg",
+  "downloaded_at": "2026-10-22T11:51:46.939888+00:00",
+  "sha256": "dce409744b088f94c6e37ba41f8100c384c27e029e843237364c602d30d475e5",
+  "local_runtime": ".runtime/nuget-python313/tools/python.exe",
+  "official_documentation": "https://docs.python.org/3.13/using/windows.html#the-nuget-org-packages"
+}

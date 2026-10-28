@@ -1,0 +1,49 @@
+{
+  "validation": {
+    "command": [
+      "F:\\thesis\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "nurbs_knowledge",
+      "validate"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"valid\",\n  \"sources\": 6,\n  \"chunks\": 25\n}\n",
+    "stderr": ""
+  },
+  "tests": {
+    "command": [
+      "F:\\thesis\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_hand_computed_scores (test_bm25.BM25Tests.test_hand_computed_scores) ... ok\ntest_invalid_queries_and_parameters (test_bm25.BM25Tests.test_invalid_queries_and_parameters) ... ok\ntest_no_matching_terms_and_empty_corpus (test_bm25.BM25Tests.test_no_matching_terms_and_empty_corpus) ... ok\ntest_tie_break_and_repeated_query_terms (test_bm25.BM25Tests.test_tie_break_and_repeated_query_terms) ... ok\ntest_unicode_and_api_identifiers (test_bm25.BM25Tests.test_unicode_and_api_identifiers) ... ok\ntest_cli_no_match_empty_query_and_invalid_corpus (test_validation_cli.CorpusTests.test_cli_no_match_empty_query_and_invalid_corpus) ... ok\ntest_cli_search_and_no_overwrite (test_validation_cli.CorpusTests.test_cli_search_and_no_overwrite) ... ok\ntest_demo_creates_distinct_runs_with_identical_rankings (test_validation_cli.CorpusTests.test_demo_creates_distinct_runs_with_identical_rankings) ... ok\ntest_duplicates (test_validation_cli.CorpusTests.test_duplicates) ... ok\ntest_exception_evidence_is_validated (test_validation_cli.CorpusTests.test_exception_evidence_is_validated) ... ok\ntest_invalid_locator_and_version (test_validation_cli.CorpusTests.test_invalid_locator_and_version) ... ok\ntest_missing_fields_and_invalid_json (test_validation_cli.CorpusTests.test_missing_fields_and_invalid_json) ... ok\ntest_source_license_and_path_checks (test_validation_cli.CorpusTests.test_source_license_and_path_checks) ... ok\ntest_tampered_text_with_updated_hash_still_fails (test_validation_cli.CorpusTests.test_tampered_text_with_updated_hash_still_fails) ... ok\ntest_unapproved_and_missing_sources (test_validation_cli.CorpusTests.test_unapproved_and_missing_sources) ... ok\ntest_valid_fixture_and_raw_integrity (test_validation_cli.CorpusTests.test_valid_fixture_and_raw_integrity) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 1.210s\n\nOK\n"
+  },
+  "repeatability": {
+    "runs": [
+      "20261022T120308Z_bm25_de1889b0",
+      "20261022T120309Z_bm25_224a64a1"
+    ],
+    "query_count": 10,
+    "rankings_and_scores_identical": true,
+    "timings_excluded": true
+  },
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "F:\\thesis\\.venv\\Scripts\\python.exe",
+    "runtime_metadata": "references/literature/verification/python_runtime.json",
+    "third_party_runtime_dependencies": []
+  },
+  "created_at": "2026-10-22T12:03:10.909548+00:00",
+  "test_file_sha256": {
+    "tests/test_bm25.py": "69b1112a012a5415dc01a6a08aa9ecea69740cdbdb771663584c6fff0848a3dc",
+    "tests/test_validation_cli.py": "385ea2d50ba439daaf3c2bf8f56046c0b0ceee2c87bcb99fe1ca98ede969c9a0"
+  }
+}

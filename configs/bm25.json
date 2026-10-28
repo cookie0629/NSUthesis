@@ -1,0 +1,9 @@
+{
+  "method": "bm25",
+  "k1": 1.5,
+  "b": 0.75,
+  "idf": "log(1 + (N - df + 0.5) / (df + 0.5))",
+  "tokenizer": "unicode_nfkc_casefold_word_v1",
+  "query_terms": "unique",
+  "default_top_k": 5
+}
